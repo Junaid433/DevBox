@@ -1,7 +1,7 @@
 
 ---
 
-DevBox - Per-Language Development Environment Manager
+DevBox - Per Language Development Environment Manager
 ====================================================
 
 Overview
