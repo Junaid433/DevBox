@@ -21,7 +21,7 @@ Key Features
 
 Project Structure
 -----------------
-.
+```
 ├── devbox                    # Compiled CLI binary
 ├── src                       # Source code
 │   ├── commands              # CLI commands implementations
@@ -35,7 +35,7 @@ Project Structure
 │   ├── rust
 │   └── ts
 └── tests                     # Unit tests (GoogleTest framework)
-
+```
 Installation
 ------------
 1. Clone the repository:
