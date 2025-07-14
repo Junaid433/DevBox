@@ -14,11 +14,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Setup C++ environment
-        uses: actions/setup-cmake@v2
-        with:
-          cmake-version: '3.27.0'   # or any version you want
-
+      - name: Install CMake
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y cmake
+          
       - name: Install dependencies
         run: |
           sudo apt-get update
