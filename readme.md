@@ -1,7 +1,7 @@
 
 ---
 
-DevBox - Per-Language Development Environment Manager
+DevBox - Per Language Development Environment Manager
 ====================================================
 
 Overview
@@ -20,8 +20,7 @@ Key Features
 - Portable and simple, relying on standard tools and minimal dependencies
 
 Project Structure
------------------
-.
+```
 ├── devbox                    # Compiled CLI binary
 ├── src                       # Source code
 │   ├── commands              # CLI commands implementations
@@ -35,26 +34,24 @@ Project Structure
 │   ├── rust
 │   └── ts
 └── tests                     # Unit tests (GoogleTest framework)
-
+```
 Installation
 ------------
-1. Clone the repository:
-   git clone https://github.com/yourusername/devbox.git
-2. Create build directory and compile:
+```
+   git clone https://github.com/Junaid433/devbox.git
    mkdir build && cd build
    cmake ..
    make
-3. (Optional) Install globally:
    sudo make install
-
+```
 Usage
 -----
 Basic syntax:
-
+```
   devbox <command> <language> [options]
-
+```
 Commands:
-
+```
   new <language> [--open|-o]   Create a new environment for the specified language.
                                --open flag opens the environment folder in the editor.
 
@@ -65,16 +62,16 @@ Commands:
   clean <language>            Remove the environment for the specified language.
 
   help                        Show this usage message.
-
+```
 Example:
-
+```
   devbox new python --open
-
+```
 This creates a new Python virtual environment from the template and opens it in your editor.
 
 Configuration
 -------------
-DevBox loads configuration from `~/.config/devbox/config.ini`. Example config:
+DevBox loads configuration from `~/src/utils/config.hpp`. Example config:
 
   [settings]
   editor=code            ; Editor command to open environment folders
@@ -85,9 +82,9 @@ If no editor is specified, DevBox attempts to use the $EDITOR environment variab
 Templates
 ---------
 Templates are stored under the templates directory and bootstrapped to the cache directory automatically on first run:
-
-  ~/.cache/devbox/templates/
-
+```
+  ~/devbox/templates/
+```
 Each template folder contains starter files, e.g.,
 
   python/
