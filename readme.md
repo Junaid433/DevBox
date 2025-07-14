@@ -1,6 +1,6 @@
 
 ---
-
+```
 DevBox - Per-Language Development Environment Manager
 ====================================================
 
@@ -20,8 +20,7 @@ Key Features
 - Portable and simple, relying on standard tools and minimal dependencies
 
 Project Structure
------------------
-```
+
 ├── devbox                    # Compiled CLI binary
 ├── src                       # Source code
 │   ├── commands              # CLI commands implementations
@@ -35,7 +34,7 @@ Project Structure
 │   ├── rust
 │   └── ts
 └── tests                     # Unit tests (GoogleTest framework)
-```
+
 Installation
 ------------
 1. Clone the repository:
@@ -109,7 +108,7 @@ Development
 Contributing
 ------------
 Contributions are welcome! Feel free to open issues or submit pull requests.
-
+```
 ---
 
 
