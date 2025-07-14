@@ -37,15 +37,13 @@ Project Structure
 ```
 Installation
 ------------
-1. Clone the repository:
+```
    git clone https://github.com/Junaid433/devbox.git
-2. Create build directory and compile:
    mkdir build && cd build
    cmake ..
    make
-3. (Optional) Install globally:
    sudo make install
-
+```
 Usage
 -----
 Basic syntax:
