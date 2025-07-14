@@ -1,0 +1,14 @@
+pkgbase = devbox
+	pkgdesc = DevBox CLI tool for per-language dev environments
+	pkgver = 0.1
+	pkgrel = 1
+	url = https://github.com/Junaid433/DevBox
+	arch = x86_64
+	license = MIT
+	makedepends = gcc
+	makedepends = cmake
+	makedepends = make
+	source = https://github.com/Junaid433/DevBox/archive/refs/tags/v0.1.tar.gz
+	sha256sums = SKIP
+
+pkgname = devbox
